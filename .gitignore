@@ -1,0 +1,19 @@
+# Generated at runtime — user-specific, not source
+task_log.csv
+tasks_config.txt
+daily_logs/
+daily_screenshots/
+
+# PyInstaller build output
+build/
+dist/
+!dist/MyTaskTimer.exe
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
